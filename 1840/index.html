@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>大清残鼎｜目录 共420章</title>
+    <style>
+        *{box-sizing:border-box;margin:0;padding:0;font-family:"SimSun",serif;}
+        body{background:#f6f6f6;padding:24px;line-height:1.7;color:#222;max-width:1200px;margin:0 auto;}
+        h1{text-align:center;margin-bottom:30px;color:#900;font-size:28px;}
+        .volume{background:#fff;border:1px solid #ddd;border-radius:8px;margin-bottom:16px;overflow:hidden;}
+        .volume-header{padding:14px 20px;background:#eee;cursor:pointer;font-weight:bold;font-size:18px;display:flex;justify-content:space-between;align-items:center;user-select:none;}
+        .volume-content{padding:16px 20px;display:none;}
+        .volume-content.open{display:block;}
+        .chapter-list{list-style:none;display:grid;grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));gap:6px;}
+        .chapter-item{font-size:14px;padding:8px 10px;cursor:pointer;border-radius:4px;transition:background 0.2s;}
+        .chapter-item:hover{background:#f0f0f0;}
+        .chapter-link{color:#222;text-decoration:none;display:block;}
+        .chapter-link:hover{color:#900;}
+        .chapter-title{display:block;font-weight:500;}
+        .chapter-summary{display:none;margin-top:8px;padding:10px 12px;background:#fafafa;border-left:3px solid #900;font-size:13px;color:#555;line-height:1.6;border-radius:0 4px 4px 0;}
+        .chapter-item.open .chapter-summary{display:block;}
+        .chapter-title::before{content:'▸';display:inline-block;margin-right:4px;color:#900;font-size:10px;transition:transform 0.2s;}
+        .chapter-item.open .chapter-title::before{transform:rotate(90deg);}
+        .search-bar{text-align:center;margin-bottom:20px;}
+        .search-bar input{padding:8px 12px;width:300px;border:1px solid #ccc;border-radius:4px;font-size:14px;}
+        .volume-count{color:#666;font-weight:normal;font-size:14px;}
+    </style>
+</head>
+<body>
+<h1>大清残鼎｜目录（总计 420 章）</h1>
+<div class="search-bar">
+    <input type="text" id="searchInput" placeholder="搜索章节标题或摘要内容..." onkeyup="searchChapters()">
+</div>
+
+<div class="volume">
+    <div class="volume-header" onclick="toggleVol(this)">
+        第一卷 银漏（1839冬—1842） <span class="volume-count">72章，第1–72章</span>
+    </div>
+    <div class="volume-content">
+        <ul class="chapter-list">
+            <li class="chapter-item" onclick="toggleSummary(this)">
+                <a href="chapter_001.html" class="chapter-link" onclick="event.stopPropagation()"><span class="chapter-title">1. 养心殿，御案上两份折子</span></a>
+                <div class="chapter-summary">道光十九年冬，养心殿御案上并排摆着两份奏折：一份是林则徐禁烟的捷报，一份是英商抗议的通译稿。道光帝摩挲着御印，迟迟难以决断——禁，恐激边衅；不禁，则白银日漏，国本动摇。</div>
+            </li>
+            <li class="chapter-item" onclick="toggleSummary(this)">
+                <a href="chapter_002.html" class="chapter-link" onclick="event.stopPropagation()"><span class="chapter-title">2. 珠江岸，怡和行灯下密语</span></a>
+                <div class="chapter-summary">珠江岸边，怡和行总商伍秉鉴在灯下与心腹密议。林则徐的禁烟令如山压顶，一边是朝廷的严旨，一边是洋商的债务纠葛，十三行的百年基业正悬于一线之间。</div>
+            </li>
+            <li class="chapter-item" onclick="toggleSummary(this)">
+                <a href="chapter_003.html" class="chapter-link" onclick="event.stopPropagation()"><span class="chapter-title">3. 十三行大堂，林则徐问话行商</span></a>
+                <div class="chapter-summary">林则徐在十三行大堂传讯行商，声色俱厉地诘问鸦片走私内情。行商们个个噤若寒蝉，深知无论站在哪一边，都难逃倾家荡产的命运。</div>
+            </li>
+            <li class="chapter-item" onclick="toggleSummary(this)">
+                <a href="chapter_004.html" class="chapter-link" onclick="event.stopPropagation()"><span class="chapter-title">4. 澳门洋馆，义律召集英商议事</span></a>
+                <div class="chapter-summary">澳门的英国商馆里，商务监督义律召集英商议事。有人主张妥协交烟，有人坚持武力对抗，义律在两种意见之间摇摆，暗中向印度总督求援。</div>
+            </li>
+            <li class="chapter-item" onclick="toggleSummary(this)">
+                <a href="chapter_005.html" class="chapter-link" onclick="event.stopPropagation()"><span class="chapter-title">5. 都察院，御史草拟弹章</span></a>
+                <div class="chapter-summary">都察院内，御史们连夜草拟弹章，矛头直指广东官吏渎职受贿。清流激昂，却不知鸦片之祸早已深入帝国骨髓，非一道奏折可除。</div>
+            </li>
+            <li class="chapter-item" onclick="toggleSummary(this)">
+                <a href="chapter_006.html" class="chapter-link" onclick="event.stopPropagation()"><span class="chapter-title">6. 穆彰阿私邸，幕客核算银账</span></a>
+                <div class="chapter-summary">穆彰阿私邸中，幕客拨着算盘核算历年海关税银与鸦片漏银的账目。数字触目惊心，穆彰阿却在盘算如何在帝前措辞，既不触怒龙颜，又能保全自身。</div>
+            </li>
+            <li class="chapter-item" onclick="toggleSummary(this)">
+                <a href="chapter_007.html" class="chapter-link" onclick="event.stopPropagation()"><span class="chapter-title">7. 虎门炮台，水师查船的难处</span></a>
+                <div class="chapter-summary">虎门炮台旁，水师参将面对洋船走私束手无策。炮是旧炮，船是旧船，兵是老兵，而夷船坚炮利，查船之难，难于上青天。</div>
+            </li>
+            <li class="chapter-item" onclick="toggleSummary(this)">
+                <a href="chapter_008.html" class="chapter-link" onclick="event.stopPropagation()"><span class="chapter-title">8. 粤下乡塾，老农算银钱苦账</span></a>
+                <div class="chapter-summary">粤下乡间私塾里，老农翻着泛黄的账本，计算粮价与银价的落差。一两银子从前换一千文，如今要一千五六，赋税却仍按银征收，百姓苦不堪言。</div>
+            </li>
+            <li class="chapter-item" onclick="toggleSummary(this)">
+                <a href="chapter_009.html" class="chapter-link" onclick="event.stopPropagation()"><span class="chapter-title">9. 京驿南下，一道不能明发的密谕</span></a>
+                <div class="chapter-summary">京驿快马南下，一道不能明发的密谕在途中疾驰。道光帝在密谕中命林则徐「不可启衅，亦不可示弱」，措辞模棱，将战和之责尽推给封疆大吏。</div>
+            </li>
+            <li class="chapter-item" onclick="toggleSummary(this)">
+                <a href="chapter_010.html" class="chapter-link" onclick="event.stopPropagation()"><span class="chapter-title">10. 洋商遣使，试探对等通商章程</span></a>
+                <div class="chapter-summary">英商遣人试探清廷态度，提出对等通商章程，要求废除行商垄断。双方话语体系全然不同，一方讲主权，一方讲贸易，对话从一开始就不在同一轨道。</div>
+            </li>
+            <li class="chapter-item">11. 林则徐复折：纲常底线不可退让</li>
+            <li class="chapter-item">12. 粤海关书办，查验的暗规与油水</li>
+            <li class="chapter-item">13. 十三行总商合议，两头承责之苦</li>
+            <li class="chapter-item">14. 闽浙海疆，夷船北上的传闻入奏</li>
+            <li class="chapter-item">15. 御前奏对，道光追问战饷从何而出</li>
+            <li class="chapter-item">16. 定海绿营，空额、虚饷与朽坏炮械</li>
+            <li class="chapter-item">17. 定海县衙，知县登门劝乡绅捐输</li>
+            <li class="chapter-item">18. 烽至定海，城池陷落，驿书星夜入都</li>
+            <li class="chapter-item">19. 朝堂鼎沸，清流交章弹劾</li>
+            <li class="chapter-item">20. 圣意游移，剿抚二策难决</li>
+            <li class="chapter-item">21. 简派琦善，持谕南下广州</li>
+            <li class="chapter-item">22. 狮子洋海面，琦善与义律初次会晤</li>
+            <li class="chapter-item">23. 广州城内，流言汹汹，民心浮动</li>
+            <li class="chapter-item">24. 奏折文字的学问：如何措辞方能不担重咎</li>
+            <li class="chapter-item">25. 虎门再败，关天培殉炮台</li>
+            <li class="chapter-item">26. 京师士林：羁縻即是卖国的声浪</li>
+            <li class="chapter-item">27. 裕谦赴浙，筹划江防浙防</li>
+            <li class="chapter-item">28. 吴淞口，洋船游弋窥探口岸</li>
+            <li class="chapter-item">29. 苏松粮道，漕银挪借海防开销</li>
+            <li class="chapter-item">30. 宁波城外，乡勇与营兵的隔阂</li>
+            <li class="chapter-item">31. 杭州抚署，疆臣之间互不信任</li>
+            <li class="chapter-item">32. 英舰入长江，漕运命脉震动</li>
+            <li class="chapter-item">33. 镇江血战，旗营覆败</li>
+            <li class="chapter-item">34. 养心殿，道光默观舆图，长久无言</li>
+            <li class="chapter-item">35. 耆英、伊里布奉旨，赴江南议和</li>
+            <li class="chapter-item">36. 静海寺初谈，两套话语各说各话</li>
+            <li class="chapter-item">37. 条约草稿逐条斟酌，计较名分与赔款</li>
+            <li class="chapter-item">38. 京中言官驰折，争华夏大体</li>
+            <li class="chapter-item">39. 江宁城下，和约落笔</li>
+            <li class="chapter-item">40. 战后户部核算，赔款摊派至各州县</li>
+            <li class="chapter-item">41. 五口开埠，旧广州一口通商格局崩塌</li>
+            <li class="chapter-item">42. 上海外滩，第一批洋行择地立栈</li>
+            <li class="chapter-item">43. 浙闽州县，官吏商议摊赔之法</li>
+            <li class="chapter-item">44. 乡间催科，粮价银价再掀风波</li>
+            <li class="chapter-item">45. 行商清算，多年基业随变局动摇</li>
+            <li class="chapter-item">46. 洋商定新价，丝茶贸易的定价权转移</li>
+            <li class="chapter-item">47. 军机处复盘：此番祸乱根源何在</li>
+            <li class="chapter-item">48. 林则徐西行，赴伊犁途中的思索</li>
+            <li class="chapter-item">49. 东南督抚密函，互通夷情</li>
+            <li class="chapter-item">50. 胥吏趁新约，另生盘剥门路</li>
+            <li class="chapter-item">51. 沿海渔户，和夷船打交道的新日子</li>
+            <li class="chapter-item">52. 京中密议：要不要再提通商征税旧策</li>
+            <li class="chapter-item">53. 士大夫分歧：是夷患，还是制度之病</li>
+            <li class="chapter-item">54. 洋领事赴京的诉求，觐见礼仪之争初起</li>
+            <li class="chapter-item">55. 冬夜户部账房，银漏依旧源源外流</li>
+            <li class="chapter-item">56. 宁波口岸，第一任领事到任</li>
+            <li class="chapter-item">57. 厦门城内，士绅抵制洋商入城</li>
+            <li class="chapter-item">58. 福州官场，如何拿捏通商尺度</li>
+            <li class="chapter-item">59. 通商章程细则，反复往复照会</li>
+            <li class="chapter-item">60. 洋商雇华工，民间新生计与新纠葛</li>
+            <li class="chapter-item">61. 水师新章程：口岸巡防之两难</li>
+            <li class="chapter-item">62. 流放途上，林则徐与戍边官吏闲谈</li>
+            <li class="chapter-item">63. 江南漕运总督，论漕运与洋船竞争</li>
+            <li class="chapter-item">64. 洋书初入口岸，少数士人窥看西书</li>
+            <li class="chapter-item">65. 州县账房，摊赔款如何分摊到户</li>
+            <li class="chapter-item">66. 乡约集会，宣讲和约，乡民茫然不解</li>
+            <li class="chapter-item">67. 洋商投书督抚，诉求拓宽贸易范围</li>
+            <li class="chapter-item">68. 军机处传阅口岸密报，意见割裂</li>
+            <li class="chapter-item">69. 沿海走私再起，新法难禁夹带鸦片</li>
+            <li class="chapter-item">70. 粤省书院，山长讲学论夷变</li>
+            <li class="chapter-item">71. 道光灯下，重读历次奏稿，长叹无言</li>
+            <li class="chapter-item">72. 卷末：和约已定，病根未除</li>
+        </ul>
+    </div>
+</div>
+
+<div class="volume">
+    <div class="volume-header" onclick="toggleVol(this)">
+        第二卷 燎原（1843–1864） <span class="volume-count">84章，第73–156章</span>
+    </div>
+    <div class="volume-content">
+        <ul class="chapter-list">
+            <li class="chapter-item">73. 广州入城风波，士绅联团拒洋</li>
+            <li class="chapter-item">74. 粤省赔款摊派，乡怨悄悄积聚</li>
+            <li class="chapter-item">75. 西江两岸，土客积怨，械斗渐起</li>
+            <li class="chapter-item">76. 花县乡塾，落第书生昼夜思索世道</li>
+            <li class="chapter-item">77. 桂平山区，拜上帝会暗地集结</li>
+            <li class="chapter-item">78. 军机处阅报，视粤西为癣疥小患</li>
+            <li class="chapter-item">79. 州县征输，耗羡浮费层层加码</li>
+            <li class="chapter-item">80. 金田举事，驿报飞驰京师</li>
+            <li class="chapter-item">81. 永安建制，朝堂始知事态危重</li>
+            <li class="chapter-item">82. 绿营将帅迁延观望，互相推诿</li>
+            <li class="chapter-item">83. 咸丰登极，下诏求直言，急寻救策</li>
+            <li class="chapter-item">84. 太平军入湖南，湘省震动</li>
+            <li class="chapter-item">85. 武昌失守，长江咽喉易手</li>
+            <li class="chapter-item">86. 沿江漕船焚毁，千年漕运中断</li>
+            <li class="chapter-item">87. 金陵定都，天京立号</li>
+            <li class="chapter-item">88. 户部大堂，库银簿册见底</li>
+            <li class="chapter-item">89. 明发上谕：各省兴办团练自保</li>
+            <li class="chapter-item">90. 湘乡，曾国藩接旨，踌躇办团</li>
+            <li class="chapter-item">91. 长沙巡抚衙门，大吏与团练大臣的隔阂</li>
+            <li class="chapter-item">92. 衡州开募，勇丁易得，饷银难筹</li>
+            <li class="chapter-item">93. 劝捐告示贴遍湘乡，乡绅各怀算盘</li>
+            <li class="chapter-item">94. 江西用兵，客兵无本地粮饷支撑</li>
+            <li class="chapter-item">95. 江南、江北大营，饷源时断时续</li>
+            <li class="chapter-item">96. 上海县城，小刀会起事夺城</li>
+            <li class="chapter-item">97. 江海关易制，洋人代管海关之开端</li>
+            <li class="chapter-item">98. 英法公使，提出修约换约诉求</li>
+            <li class="chapter-item">99. 大沽口，第一次战和拉锯</li>
+            <li class="chapter-item">100. 北塘谈判，巴夏礼一行羁押</li>
+            <li class="chapter-item">101. 通州决裂，烽烟直逼京师</li>
+            <li class="chapter-item">102. 圆明园火光，咸丰车驾赴热河</li>
+            <li class="chapter-item">103. 热河行宫，肃顺一党掌行在大权</li>
+            <li class="chapter-item">104. 恭亲王留京，在京城与夷人周旋</li>
+            <li class="chapter-item">105. 北京条约落笔，新口岸、新赔款加身</li>
+            <li class="chapter-item">106. 热河遗诏，权力格局埋下裂痕</li>
+            <li class="chapter-item">107. 辛酉政变，京邸与行在的暗斗</li>
+            <li class="chapter-item">108. 两宫垂帘，恭王领总理各国事务衙门</li>
+            <li class="chapter-item">109. 安庆大营，曾国藩、胡林翼纵论天下</li>
+            <li class="chapter-item">110. 厘金设卡，商途之上步步抽税</li>
+            <li class="chapter-item">111. 两淮盐务改制，旧盐商利益崩塌</li>
+            <li class="chapter-item">112. 上海，李鸿章募勇，联络常胜军</li>
+            <li class="chapter-item">113. 浙东危局，左宗棠入浙筹饷练兵</li>
+            <li class="chapter-item">114. 租界洋行，枪炮弹药暗中交易</li>
+            <li class="chapter-item">115. 湘军营中，欠饷积怨，暗流涌动</li>
+            <li class="chapter-item">116. 雨花台大战，曾国荃围金陵</li>
+            <li class="chapter-item">117. 天京城外，各方势力争功观望</li>
+            <li class="chapter-item">118. 天京破城，劫掠、奏报与善后</li>
+            <li class="chapter-item">119. 战后勘地，江南州县满目荒残</li>
+            <li class="chapter-item">120. 裁军难题：数万勇丁，散去无生计</li>
+            <li class="chapter-item">121. 湘淮两系分立，外重内轻之势已成</li>
+            <li class="chapter-item">122. 总理衙门第一次集议：师夷长技</li>
+            <li class="chapter-item">123. 安庆内军械所，试造洋器的章程</li>
+            <li class="chapter-item">124. 江南乡绅，战后恢复田产的博弈</li>
+            <li class="chapter-item">125. 流民遍地，州县安置无钱无策</li>
+            <li class="chapter-item">126. 洋商深入长江，沿江口岸渐次开放</li>
+            <li class="chapter-item">127. 湘军将帅密信：兵权、饷权、地方权</li>
+            <li class="chapter-item">128. 御史上奏，警惕督抚权重</li>
+            <li class="chapter-item">129. 长江水师建制，新的军制尝试</li>
+            <li class="chapter-item">130. 天京余波，幼天王逃亡与搜捕</li>
+            <li class="chapter-item">131. 厘金之弊：卡局林立，商贾苦不堪言</li>
+            <li class="chapter-item">132. 皖南战后，田籍混乱，争地不断</li>
+            <li class="chapter-item">133. 湘乡老家，曾国藩家人乡居的风波</li>
+            <li class="chapter-item">134. 常胜军遣散，洋将索酬，纠缠不休</li>
+            <li class="chapter-item">135. 汉口开埠，洋商入长江中游</li>
+            <li class="chapter-item">136. 各省督抚上书，论厘金存废之争</li>
+            <li class="chapter-item">137. 苏州善后局，清点库款与难民</li>
+            <li class="chapter-item">138. 湖口关卡，厘卡胥吏贪腐密报</li>
+            <li class="chapter-item">139. 士绅赴省，请愿减免捐输</li>
+            <li class="chapter-item">140. 总理衙门译员，口述海外诸国情势</li>
+            <li class="chapter-item">141. 胡林翼临终前密书，警示东南隐患</li>
+            <li class="chapter-item">142. 淮军移防，饷粮转运的难处</li>
+            <li class="chapter-item">143. 太平军余部窜入闽粤，清剿迁延</li>
+            <li class="chapter-item">144. 地方团练留存，私练隐祸渐生</li>
+            <li class="chapter-item">145. 洋教士随通商入长江内陆</li>
+            <li class="chapter-item">146. 盐商赴京，哭诉盐法新章之害</li>
+            <li class="chapter-item">147. 漕运改海运，旧漕丁生计断绝</li>
+            <li class="chapter-item">148. 恭王与文祥灯下，论自强起步之难</li>
+            <li class="chapter-item">149. 湘军将领私下议：功高何以自全</li>
+            <li class="chapter-item">150. 江南书院复建，新旧学问之辩</li>
+            <li class="chapter-item">151. 洋船承运漕粮，户部核算运费得失</li>
+            <li class="chapter-item">152. 闽浙督抚会商，善后筹饷</li>
+            <li class="chapter-item">153. 刑狱积压，战乱之后州县官缺不足</li>
+            <li class="chapter-item">154. 乡间宗族，借战乱之机私蓄兵器</li>
+            <li class="chapter-item">155. 口岸洋报，传入内地，流言滋生</li>
+            <li class="chapter-item">156. 卷末：内乱平定，条约枷锁愈紧</li>
+        </ul>
+    </div>
+</div>
+
+<div class="volume">
+    <div class="volume-header" onclick="toggleVol(this)">
+        第三卷 自强（1865–1894） <span class="volume-count">90章，第157–246章</span>
+    </div>
+    <div class="volume-content">
+        <ul class="chapter-list">
+            <li class="chapter-item">157. 上海，江南制造总局开工奠基</li>
+            <li class="chapter-item">158. 福州，船政衙门设立，造船育人</li>
+            <li class="chapter-item">159. 京师同文馆开馆，招考风波骤起</li>
+            <li class="chapter-item">160. 朝堂大辩：西学该不该入庙堂</li>
+            <li class="chapter-item">161. 西北急报，阿古柏侵占南疆</li>
+            <li class="chapter-item">162. 朝堂巨争：海防为重，还是塞防为重</li>
+            <li class="chapter-item">163. 左宗棠西征，奏请借洋款充军饷</li>
+            <li class="chapter-item">164. 胡雪岩钱庄，官款与商股纠缠一处</li>
+            <li class="chapter-item">165. 轮船招商局奏设，官督商办定章程</li>
+            <li class="chapter-item">166. 招商局与太古、怡和，漕运航线之争</li>
+            <li class="chapter-item">167. 开平矿务局，采煤供机器、舰船</li>
+            <li class="chapter-item">168. 电报线初架，朝野议论吉凶风水</li>
+            <li class="chapter-item">169. 铁路之议四起，阻力层层叠叠</li>
+            <li class="chapter-item">170. 醇亲王巡阅北洋，海口阅操</li>
+            <li class="chapter-item">171. 内务府的账，园工与海军经费纠葛</li>
+            <li class="chapter-item">172. 北洋水师购船、养船的常年耗费</li>
+            <li class="chapter-item">173. 南洋水师，经费常年捉襟见肘</li>
+            <li class="chapter-item">174. 各省督抚，各自兴办机器局厂</li>
+            <li class="chapter-item">175. 官督商办死结：官掌权，商求利，彼此相制</li>
+            <li class="chapter-item">176. 上海丝茶行，洋商把持定价，华商被动</li>
+            <li class="chapter-item">177. 传教士深入川楚乡间，民教摩擦渐生</li>
+            <li class="chapter-item">178. 天津教案爆发，举国震动</li>
+            <li class="chapter-item">179. 曾国藩赴津，两难：安民心，守条约</li>
+            <li class="chapter-item">180. 公使驻京，觐见跪拜礼仪持久争执</li>
+            <li class="chapter-item">181. 越南告警，法军逐步侵入北圻</li>
+            <li class="chapter-item">182. 军机处连日会议，对法战和不定</li>
+            <li class="chapter-item">183. 马尾港，船政水师遇袭，海战猝发</li>
+            <li class="chapter-item">184. 东南沿海戒严，闽台防务吃紧</li>
+            <li class="chapter-item">185. 镇南关，老将临阵，重挫法军</li>
+            <li class="chapter-item">186. 中法新约，大清藩篱越南尽失</li>
+            <li class="chapter-item">187. 朝鲜通商开埠，中日势力同入半岛</li>
+            <li class="chapter-item">188. 驻日公使密函，详述日本维新变化</li>
+            <li class="chapter-item">189. 京中清流派，重义理而轻海外实务</li>
+            <li class="chapter-item">190. 户部核减，海防经费逐年压缩</li>
+            <li class="chapter-item">191. 北洋大阅，纸面繁盛之下的隐忧</li>
+            <li class="chapter-item">192. 东学党起事，朝鲜王室向大清乞兵</li>
+            <li class="chapter-item">193. 天津专条，互相派兵的旧约束缚</li>
+            <li class="chapter-item">194. 御前会议，争辩朝鲜的利害取舍</li>
+            <li class="chapter-item">195. 牙山之外，中日先行交火</li>
+            <li class="chapter-item">196. 平壤会战，淮军陆军全线溃退</li>
+            <li class="chapter-item">197. 大东沟海面，北洋水师血战</li>
+            <li class="chapter-item">198. 金州失陷，旅顺门户洞开</li>
+            <li class="chapter-item">199. 旅顺陷落，屠戮传遍关内</li>
+            <li class="chapter-item">200. 京师恐慌，南迁避敌之议浮出</li>
+            <li class="chapter-item">201. 威海卫港，北洋舰队困守覆灭</li>
+            <li class="chapter-item">202. 恭亲王再度起用，主持和谈大局</li>
+            <li class="chapter-item">203. 李鸿章奉使东渡，赴马关议和</li>
+            <li class="chapter-item">204. 春帆楼内，赔款、割地逐条逼压</li>
+            <li class="chapter-item">205. 条约底稿传回，朝堂一片哗然</li>
+            <li class="chapter-item">206. 公车集于都门，联名上书拒和</li>
+            <li class="chapter-item">207. 各省督抚电奏，意见四分五裂</li>
+            <li class="chapter-item">208. 洋国公使，观望中日变局，算计利益</li>
+            <li class="chapter-item">209. 台湾绅民，闻讯割台，奋起自保</li>
+            <li class="chapter-item">210. 唐景崧、刘永福，台岛苦撑</li>
+            <li class="chapter-item">211. 户部核算马关赔款，财政彻底崩盘</li>
+            <li class="chapter-item">212. 船政学堂毕业生，四散各地</li>
+            <li class="chapter-item">213. 招商局内部，官商矛盾爆发</li>
+            <li class="chapter-item">214. 开平矿局，洋股暗中渗透</li>
+            <li class="chapter-item">215. 电报总局，地方督抚争夺管控权</li>
+            <li class="chapter-item">216. 清流派弹章，痛斥洋务大臣误国</li>
+            <li class="chapter-item">217. 醇亲王薨逝，朝堂格局再变</li>
+            <li class="chapter-item">218. 朝鲜王宫，中日势力交替拉扯</li>
+            <li class="chapter-item">219. 洋银行进入京师，揽办借款</li>
+            <li class="chapter-item">220. 江南制造局，造炮造舰进度迟滞</li>
+            <li class="chapter-item">221. 南洋大臣，上书请续筹南洋海防</li>
+            <li class="chapter-item">222. 教案频发，州县官处置左右为难</li>
+            <li class="chapter-item">223. 留洋幼童，中途撤回的风波</li>
+            <li class="chapter-item">224. 上海租界，西报评论甲午之败</li>
+            <li class="chapter-item">225. 淮军残部，裁撤与安置难题</li>
+            <li class="chapter-item">226. 湘军旧将，议论此战得失</li>
+            <li class="chapter-item">227. 台湾抗日失败，内渡官民安置</li>
+            <li class="chapter-item">228. 京师书坊，刻印新论，谈洋务得失</li>
+            <li class="chapter-item">229. 洋商抬高丝茶压价，华商纷纷亏折</li>
+            <li class="chapter-item">230. 总理衙门，会商赔款分期偿付之法</li>
+            <li class="chapter-item">231. 外债抵押关税，财权缓缓旁落</li>
+            <li class="chapter-item">232. 地方杂税四起，弥补赔款缺口</li>
+            <li class="chapter-item">233. 乡塾先生，私下讲东洋变法故事</li>
+            <li class="chapter-item">234. 李鸿章回京，朝野谤言四起</li>
+            <li class="chapter-item">235. 军机处议，是否续办洋务局厂</li>
+            <li class="chapter-item">236. 台湾割让之后，沿海士绅的绝望</li>
+            <li class="chapter-item">237. 水师旧部闲谈，复盘海战败因</li>
+            <li class="chapter-item">238. 海关总税务司赫德，暗中谋划利权</li>
+            <li class="chapter-item">239. 各省停购西洋船炮，自强戛然放缓</li>
+            <li class="chapter-item">240. 新学小册子，悄悄流入内地府城</li>
+            <li class="chapter-item">241. 旗营阅操，器械陈旧，徒具形式</li>
+            <li class="chapter-item">242. 藩司账房，常年为洋款利息发愁</li>
+            <li class="chapter-item">243. 督抚密电互通，共忧国帑枯竭</li>
+            <li class="chapter-item">244. 恭王病中，与幕僚论三十年自强得失</li>
+            <li class="chapter-item">245. 士大夫开始质疑：器物能否救国</li>
+            <li class="chapter-item">246. 卷末：器物自强，终究撑不住全局</li>
+        </ul>
+    </div>
+</div>
+
+<div class="volume">
+    <div class="volume-header" onclick="toggleVol(this)">
+        第四卷 维新（1895–1900） <span class="volume-count">72章，第247–318章</span>
+    </div>
+    <div class="volume-content">
+        <ul class="chapter-list">
+            <li class="chapter-item">247. 京师强学会成立，士人聚而论新政</li>
+            <li class="chapter-item">248. 沪上、湘中，报馆次第开办，新说流传</li>
+            <li class="chapter-item">249. 光绪单独召对，垂询天下救亡之策</li>
+            <li class="chapter-item">250. 总理衙门问话，康有为上书言变法</li>
+            <li class="chapter-item">251. 明发新政诏，一条一条次第颁下</li>
+            <li class="chapter-item">252. 裁撤京中冗衙，各部官吏人心惶惶</li>
+            <li class="chapter-item">253. 废八股改策论，天下读书人群情激荡</li>
+            <li class="chapter-item">254. 改书院办学堂，新旧士林激烈对立</li>
+            <li class="chapter-item">255. 兵权筹划，维新派图谋掌握新军</li>
+            <li class="chapter-item">256. 荣禄坐镇天津，静观京师变局</li>
+            <li class="chapter-item">257. 颐和园，慈禧不动声色，旁观朝局</li>
+            <li class="chapter-item">258. 袁世凯入都，各方拉拢，居间权衡</li>
+            <li class="chapter-item">259. 八月密议，政变风声暗起</li>
+            <li class="chapter-item">260. 戊戌政变猝发，新政一夜停摆</li>
+            <li class="chapter-item">261. 六君子菜市就义，海内震动</li>
+            <li class="chapter-item">262. 康梁渡海流亡，海外创立保皇会</li>
+            <li class="chapter-item">263. 旧党重回朝堂，排外论调高涨</li>
+            <li class="chapter-item">264. 山东乡间，义和团自民间兴起</li>
+            <li class="chapter-item">265. 巡抚更替，对拳民剿抚反复不定</li>
+            <li class="chapter-item">266. 毓贤入京面奏，言神拳可以御夷</li>
+            <li class="chapter-item">267. 御前数次大集议：剿拳、抚拳、联洋</li>
+            <li class="chapter-item">268. 各国公使照会，提出归政要求</li>
+            <li class="chapter-item">269. 下诏宣战，同时对十一国开战</li>
+            <li class="chapter-item">270. 东南督抚密商，订立东南互保章程</li>
+            <li class="chapter-item">271. 京津地面大乱，使馆被围</li>
+            <li class="chapter-item">272. 八国联军登陆，向北京进军</li>
+            <li class="chapter-item">273. 两宫仓皇西狩，车驾奔西安</li>
+            <li class="chapter-item">274. 京城陷落，旗民、百姓流离受难</li>
+            <li class="chapter-item">275. 西安行在，残破朝廷勉强支撑</li>
+            <li class="chapter-item">276. 诏催李鸿章北上，独任议和重担</li>
+            <li class="chapter-item">277. 北京谈判，各国索取赔款、惩办祸首</li>
+            <li class="chapter-item">278. 辛丑和约敲定，巨额赔款分摊各省</li>
+            <li class="chapter-item">279. 各省藩库，常年背上赔款重负</li>
+            <li class="chapter-item">280. 回銮筹备，沿路州县苦不堪言</li>
+            <li class="chapter-item">281. 慈禧一路西行，心念已然大变</li>
+            <li class="chapter-item">282. 回京入城，旧朝威仪之下满目伤痕</li>
+            <li class="chapter-item">283. 旧党失势，朝堂再无强硬排外一派</li>
+            <li class="chapter-item">284. 洋款抵押盐税、常关，财权渐失外人之手</li>
+            <li class="chapter-item">285. 京师闲散官员，谈变法色变</li>
+            <li class="chapter-item">286. 南方报馆，评论戊戌与庚子之祸</li>
+            <li class="chapter-item">287. 直隶善后，收拾拳民余波</li>
+            <li class="chapter-item">288. 洋兵分段驻守京城，民间屈辱难言</li>
+            <li class="chapter-item">289. 公使团会商，如何约束清廷</li>
+            <li class="chapter-item">290. 逃亡官员陆续返京，补缺之争再起</li>
+            <li class="chapter-item">291. 西安途中，地方官进呈条陈求变</li>
+            <li class="chapter-item">292. 荣禄密折，论今后只能改行新政</li>
+            <li class="chapter-item">293. 李鸿章在京，周旋各国公使</li>
+            <li class="chapter-item">294. 南方督抚互通电文，巩固互保格局</li>
+            <li class="chapter-item">295. 赔款摊派下，州县苛捐丛生</li>
+            <li class="chapter-item">296. 旗人聚居区，战乱之后生计凋敝</li>
+            <li class="chapter-item">297. 狱囚趁乱逃逸，京畿刑狱大乱</li>
+            <li class="chapter-item">298. 学堂停办复办，新旧之争余波不息</li>
+            <li class="chapter-item">299. 康梁海外筹款，持续鼓吹保皇</li>
+            <li class="chapter-item">300. 洋商趁乱，索要更多通商特权</li>
+            <li class="chapter-item">301. 河道失修，直隶水患再起，官府无银赈济</li>
+            <li class="chapter-item">302. 御史上书，痛陈排外旧论之害</li>
+            <li class="chapter-item">303. 新军小练，意在替代不可靠的勇营</li>
+            <li class="chapter-item">304. 江南士绅，联名上书请速行新政</li>
+            <li class="chapter-item">305. 赫德草拟善后理财条陈，干预国计</li>
+            <li class="chapter-item">306. 慈禧召见疆臣，试探朝野人心</li>
+            <li class="chapter-item">307. 军机夜议，新政从何处下手</li>
+            <li class="chapter-item">308. 各省催缴赔款，藩司日夜焦愁</li>
+            <li class="chapter-item">309. 京津乡农，见识洋兵之后的议论</li>
+            <li class="chapter-item">310. 流放、罢黜旧党人员的处置文书</li>
+            <li class="chapter-item">311. 东南互保，在朝堂之中争议不绝</li>
+            <li class="chapter-item">312. 流亡海外志士，另寻革命路径</li>
+            <li class="chapter-item">313. 译书局大量翻译西方法政书籍</li>
+            <li class="chapter-item">314. 旧式书院山长，彷徨不知出路</li>
+            <li class="chapter-item">315. 驻防旗营，久已废弛，无力再战</li>
+            <li class="chapter-item">316. 洋债利息，逐年滚高，国库承压</li>
+            <li class="chapter-item">317. 疆臣密信：不变则亡，急变亦危</li>
+            <li class="chapter-item">318. 卷末：大乱之后，朝廷只能自我改弦</li>
+        </ul>
+    </div>
+</div>
+
+<div class="volume">
+    <div class="volume-header" onclick="toggleVol(this)">
+        第五卷 预备（1901–1908） <span class="volume-count">54章，第319–372章</span>
+    </div>
+    <div class="volume-content">
+        <ul class="chapter-list">
+            <li class="chapter-item">319. 西安行在，下诏重启新政</li>
+            <li class="chapter-item">320. 总理衙门改组为外务部，班列六部之上</li>
+            <li class="chapter-item">321. 裁汰绿营，普练新式陆军</li>
+            <li class="chapter-item">322. 下诏废科举，千年取士制度终结</li>
+            <li class="chapter-item">323. 广办学堂，青年学子远赴东洋留学</li>
+            <li class="chapter-item">324. 第一次中央官制改革，朝堂大争</li>
+            <li class="chapter-item">325. 满汉亲贵争权，隔阂暗流涌动</li>
+            <li class="chapter-item">326. 简派五大臣，出洋考察各国宪政</li>
+            <li class="chapter-item">327. 正阳门车站，吴樾炸弹刺杀使臣</li>
+            <li class="chapter-item">328. 东京海外，革命党与保皇派笔墨论战</li>
+            <li class="chapter-item">329. 同盟会在东京成立，立三民之纲</li>
+            <li class="chapter-item">330. 考察大臣归国，合奏预备立宪</li>
+            <li class="chapter-item">331. 明发九年预备立宪上谕</li>
+            <li class="chapter-item">332. 各省奉旨，筹办谘议局</li>
+            <li class="chapter-item">333. 谘议局选举，新式士绅登上台面</li>
+            <li class="chapter-item">334. 督抚与本地谘议局，持续权力拉扯</li>
+            <li class="chapter-item">335. 国债、税项，陆续抵押给外国银行团</li>
+            <li class="chapter-item">336. 铁路兴办，官办、商办路线之争</li>
+            <li class="chapter-item">337. 盛宣怀入局，铁路国有方案酝酿</li>
+            <li class="chapter-item">338. 萍浏醴起义，内地第一声革命烽火</li>
+            <li class="chapter-item">339. 皖省徐锡麟刺恩铭，秋瑾就义绍兴</li>
+            <li class="chapter-item">340. 朝野震动，严查新军、学堂革命党</li>
+            <li class="chapter-item">341. 光绪帝宾天，同日慈禧薨逝</li>
+            <li class="chapter-item">342. 溥仪登极，载沣以摄政王监国</li>
+            <li class="chapter-item">343. 摄政王府，少年亲贵执掌大政</li>
+            <li class="chapter-item">344. 明发谕旨，罢黜袁世凯，朝野哗然</li>
+            <li class="chapter-item">345. 资政院开院，国会预演，争辩不息</li>
+            <li class="chapter-item">346. 各省国会请愿团，接连赴京上书</li>
+            <li class="chapter-item">347. 朝廷缩短预备年限，依旧难孚众望</li>
+            <li class="chapter-item">348. 各省新军编练，革命思想渗入军营</li>
+            <li class="chapter-item">349. 沿江沿海，革命党连续策划起事</li>
+            <li class="chapter-item">350. 南洋华侨，筹款接济国内义举</li>
+            <li class="chapter-item">351. 亲贵内阁的雏形，朝野疑虑重重</li>
+            <li class="chapter-item">352. 留日学生，分化成立宪、革命两派</li>
+            <li class="chapter-item">353. 谘议局议员联名，弹劾督抚侵权</li>
+            <li class="chapter-item">354. 新军饷银依赖洋款，受制外人</li>
+            <li class="chapter-item">355. 盐税、烟酒税尽数划归赔款之用</li>
+            <li class="chapter-item">356. 亲贵子弟出洋，考察军政</li>
+            <li class="chapter-item">357. 报馆因言获罪，封禁不断</li>
+            <li class="chapter-item">358. 督抚暗中联络，静观京师亲贵举措</li>
+            <li class="chapter-item">359. 旗人筹办八旗生计，收效甚微</li>
+            <li class="chapter-item">360. 商办铁路股东集会，抵制官收</li>
+            <li class="chapter-item">361. 资政院上奏，请速开国会</li>
+            <li class="chapter-item">362. 摄政王御前，听取亲贵意见</li>
+            <li class="chapter-item">363. 新军军官秘密结社，传递革命书册</li>
+            <li class="chapter-item">364. 海外革命党，谋划沿江起义</li>
+            <li class="chapter-item">365. 州县劝学所，新式学堂艰难维持</li>
+            <li class="chapter-item">366. 旧式士绅，对立宪半信半疑</li>
+            <li class="chapter-item">367. 洋银行团，商议对华借款条件</li>
+            <li class="chapter-item">368. 言官弹劾亲贵揽权</li>
+            <li class="chapter-item">369. 立宪派失望，渐渐离心朝廷</li>
+            <li class="chapter-item">370. 新军秋操，暗中观察兵权归属</li>
+            <li class="chapter-item">371. 各省请愿代表被遣返，人心更散</li>
+            <li class="chapter-item">372. 卷末：立宪之约越拖，人心越散</li>
+        </ul>
+    </div>
+</div>
+
+<div class="volume">
+    <div class="volume-header" onclick="toggleVol(this)">
+        第六卷 鼎革（1909–1912） <span class="volume-count">48章，第373–420章</span>
+    </div>
+    <div class="volume-content">
+        <ul class="chapter-list">
+            <li class="chapter-item">373. 邮传部密议，川汉粤汉铁路收归国有</li>
+            <li class="chapter-item">374. 上谕下颁，铁路国有政令直达川鄂</li>
+            <li class="chapter-item">375. 成都城内，保路同志会聚众集会</li>
+            <li class="chapter-item">376. 川督赵尔丰独坐督署，进退两难</li>
+            <li class="chapter-item">377. 蒲殿俊、罗纶，士绅与官府的谈判</li>
+            <li class="chapter-item">378. 成都血案，风潮席卷全川各州府</li>
+            <li class="chapter-item">379. 急调湖北新军入川镇压，武昌空虚</li>
+            <li class="chapter-item">380. 武昌城内，新军党人秘密筹划举事</li>
+            <li class="chapter-item">381. 工程营枪响，武昌起义骤然爆发</li>
+            <li class="chapter-item">382. 军士强推黎元洪，鄂军都督府设立</li>
+            <li class="chapter-item">383. 电报飞传天下，各省督抚心惊</li>
+            <li class="chapter-item">384. 军机处连夜集议，商议剿办方略</li>
+            <li class="chapter-item">385. 荫昌领兵南下，调不动北洋旧部</li>
+            <li class="chapter-item">386. 载沣迫于局势，下诏起复袁世凯</li>
+            <li class="chapter-item">387. 洹上村，袁世凯与幕宾谋划进退</li>
+            <li class="chapter-item">388. 北洋军南下，收复汉口、汉阳</li>
+            <li class="chapter-item">389. 各省接连宣告独立，督抚或逃或附</li>
+            <li class="chapter-item">390. 上海租界，独立各省代表汇聚会商</li>
+            <li class="chapter-item">391. 各国公使团，中立观望，权衡利害</li>
+            <li class="chapter-item">392. 汉阳停战，南北议和的提议传出</li>
+            <li class="chapter-item">393. 唐绍仪、伍廷芳，上海开启和谈</li>
+            <li class="chapter-item">394. 和谈第一要义：君主立宪，还是共和</li>
+            <li class="chapter-item">395. 海外电报，孙中山启程归国</li>
+            <li class="chapter-item">396. 抵沪，各省代表选举临时大总统</li>
+            <li class="chapter-item">397. 南京，中华民国临时政府宣告成立</li>
+            <li class="chapter-item">398. 袁世凯闻讯，顾虑自身权位</li>
+            <li class="chapter-item">399. 北洋将领联电，吁请清帝逊位</li>
+            <li class="chapter-item">400. 御前会议，亲贵分裂：主战、主和、避走</li>
+            <li class="chapter-item">401. 宗社党密谋，欲以刺杀阻挠共和</li>
+            <li class="chapter-item">402. 良弼遇刺身死，亲贵胆寒四散</li>
+            <li class="chapter-item">403. 隆裕太后在养心殿，核算战守账目</li>
+            <li class="chapter-item">404. 御前对账：战则无饷，守则无兵</li>
+            <li class="chapter-item">405. 优待清室条件，逐条往复磋商</li>
+            <li class="chapter-item">406. 退位诏文稿，反复修改斟酌字句</li>
+            <li class="chapter-item">407. 御前最后一次召对，太后垂泪</li>
+            <li class="chapter-item">408. 宣统三年腊月二十五，退位诏书颁行</li>
+            <li class="chapter-item">409. 紫禁城之内，旧王朝落幕</li>
+            <li class="chapter-item">410. 南京临时政府，国库空空，饷无着落</li>
+            <li class="chapter-item">411. 临时参议院，法案争执不休</li>
+            <li class="chapter-item">412. 南北权力交接，大片治理真空</li>
+            <li class="chapter-item">413. 乡间士绅：国号虽改，钱粮依旧</li>
+            <li class="chapter-item">414. 乡野老农，茫然不知共和为何物</li>
+            <li class="chapter-item">415. 革命党人，理想遭遇现实困局</li>
+            <li class="chapter-item">416. 定都之争：南京还是北京</li>
+            <li class="chapter-item">417. 袁世凯决意北上，掌控中枢</li>
+            <li class="chapter-item">418. 列强商议，承认民国的交换筹码</li>
+            <li class="chapter-item">419. 江浙财阀，掂量新政权的信用</li>
+            <li class="chapter-item">420. 终章：残鼎落地，前路茫茫</li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    function toggleVol(el){
+        const content = el.nextElementSibling;
+        content.classList.toggle("open");
+    }
+    function toggleSummary(el){
+        el.classList.toggle("open");
+    }
+    function searchChapters(){
+        const query = document.getElementById('searchInput').value.trim().toLowerCase();
+        const items = document.querySelectorAll('.chapter-item');
+        items.forEach(item => {
+            const titleEl = item.querySelector('.chapter-title') || item;
+            const summaryEl = item.querySelector('.chapter-summary');
+            const title = titleEl.textContent.toLowerCase();
+            const summary = summaryEl ? summaryEl.textContent.toLowerCase() : '';
+            if (query && (title.includes(query) || summary.includes(query))) {
+                item.style.display = '';
+                if (summaryEl) item.classList.add('open');
+            } else if (query) {
+                item.style.display = 'none';
+            } else {
+                item.style.display = '';
+                item.classList.remove('open');
+            }
+        });
+    }
+    // 默认全部展开
+    document.querySelectorAll(".volume-content").forEach(x=>x.classList.add("open"));
+</script>
+</body>
+</html>
